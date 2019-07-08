@@ -14,6 +14,7 @@ The simple way to install them is using pip:
 ```sh
 	# sudo pip3 install -r requirements.txt
 ```
+We also provide ```Dockerfile``` to deploy environtment to test
 
 ## 3. Usage
 
