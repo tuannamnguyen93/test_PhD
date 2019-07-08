@@ -14,7 +14,7 @@ The simple way to install them is using pip:
 ```sh
 	# sudo pip3 install -r requirements.txt
 ```
-We also provide ```Dockerfile``` to deploy environtment to test
+We also provide **Dockerfile** to deploy environtment 
 
 ## 3. Usage
 
@@ -28,3 +28,5 @@ After that, we run create_dataset.py by a following command:
 This command will move all image with same label to same folder in rvl-cdip dataset and remove all image of rvl-cdip training dataset which is contained in tobaco3482.
 
 ### 3.2.Training
+
+### 3.2.1. Train and test RVC_CDIP dataset
