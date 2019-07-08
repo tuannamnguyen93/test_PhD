@@ -12,7 +12,7 @@ Strategies for Document Image Classification (https://arxiv.org/abs/1704.03557).
 This software depends on NumPy, Keras, Tensorflow, matplotlib, opencv-python. You must have them installed before using.
 The simple way to install them is using pip: 
 ```sh
-	# pip3 install -r requirements.txt
+	# sudo pip3 install -r requirements.txt
 ```
 
 
