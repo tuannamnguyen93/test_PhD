@@ -15,4 +15,15 @@ The simple way to install them is using pip:
 	# sudo pip3 install -r requirements.txt
 ```
 
+## 3. Usage
 
+### 3.1. Data
+Downloading RVL_CDIP dataset (https://www.cs.cmu.edu/~aharley/rvl-cdip/) and Tobacco dataset(https://www.kaggle.com/patrickaudriaz/tobacco3482jpg). And extract all downloaded files(rvl-cdip.tar.gz, labels_only.tar.gz, tobacco3482jpg.zip) in same folder of source.
+
+After that, we run create_dataset.py by a following command: 
+```sh
+	# python3 create_dataset.py
+```
+This command will move all image with same label to same folder in rvl-cdip dataset and remove all image of rvl-cdip training dataset which is contained in tobaco3482.
+
+### 3.2.Training
